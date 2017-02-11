@@ -23,6 +23,7 @@ filter <- function(Array,Power,Prime,String){
       }
     }
   }
+  return(NewArr)  
 }
 
 a1 <- filter(a,3,13,"%04d")
@@ -43,4 +44,5 @@ for(i in c(1:9)){
   }
 }
 
-print(sum(NewArr))  
+print(sum(NewArr))  #Ensure that all numbers in a6 have 0 already
+
